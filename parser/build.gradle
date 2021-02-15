@@ -29,7 +29,7 @@ dependencies {
     api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
     api "com.xenomachina:kotlin-argparser:2.0.7"
 
-    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.2'
 }
 
 task testParsing(dependsOn: ':test-app:assembleDebugAndroidTest', type: JavaExec) {
